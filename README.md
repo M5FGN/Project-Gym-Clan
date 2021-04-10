@@ -1,26 +1,31 @@
-# Code Clan Project 1 - Individual Project
-` ` 
+# Project Gym Clan
+
 
 ## Project Brief
 
 A local gym has asked you to build a piece of software to help them to manage meberships and register members for classes.
-` `  
+  
+
+## Important Information
+
+This repo is a clone of [codeclan_project_gymclan](https://github.com/M5FGN/codeclan_project_gymclan) as of 10/4/21. codeclan_project_gymclan is being used for submission on PDA Software Development award so no further changes will be made to that repo. All updates and enhancements will be added to this repo instead. Refer to codeclan_project_gymclan repo to see the first stages of work on this project.
 
 ## Technologies Used
 
-Python, Flask, PostgresSQL and HTML/CSS
-` `   
-## Instructions to View 
+* Python
+* Flask
+* PostgresSQL
+* HTML/CSS
+  
+## Instructions to View the App 
 
-Pull Repo from GitHub
-` `  
-In the Terminal ...
-` `   
-```
-Access the project's root folder - codeclan_project_gymclan.
-```
+1. Pull Repo from GitHub
 
-__Running the Database__
+2. In the Terminal access the project's root folder - project-gym-clan.
+
+
+3. Running the Database
+
 ```
 createdb gymclan
 ```
@@ -28,12 +33,18 @@ createdb gymclan
 psql -d gymclan -f db/gymclan.sql
 ```
 
-__Adding Seed Data to the database__
+4. Adding Seed Data to the database
+
 ```
 python3 console.py
 ```
 
-__Running Flask to see the site at localhost:5000__
+5. Running Flask
+
 ```
 flask run
 ```
+
+6. Viewing the Project in the Browser
+
+In the browser navigate to url localhost:5000
