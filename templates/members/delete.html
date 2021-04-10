@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{{member.first_name}} {{member.last_name}}</h1>
+
+<p>Deleting {{member.first_name}} {{member.last_name}} ...</p>
+
+<nav>
+    <ul>
+        <li><a class='button' href="/members/{{member.id}}/delete_confirmation"><i
+                    class="far fa-trash-alt"></i>Delete</a></li>
+        <li><a class='button' href="/members/{{member.id}}"><i class="fas fa-ban"></i></i>Cancel</a></li>
+    </ul>
+</nav>
+
+
+
+{% endblock  %}
